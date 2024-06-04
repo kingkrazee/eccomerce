@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    height: 35px;
+    width: 1520px;
+    background: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.firstpic{
+    width: 1520px;
+    height: 700px;
+    object-fit: cover;
+    background-image: url();
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.fitz{
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
+}
