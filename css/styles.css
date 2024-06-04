@@ -1,17 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .navbar{
+    position: relative;
     display: flex;
     justify-content:space-around;
     height: 35px;
-    width: 1520px;
-    background: black;
+    width: 1519.2px;
+    background: linear-gradient(330deg, rgba(255,49,49,1) 0%, rgba(255,145,77,1) 100%);
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 80px;
+    border: 2px solid black;
 }
 .firstpic{
-    width: 1520px;
+    width: 1519.2px;
     height: 700px;
-    object-fit: cover;
-    background-image: url();
+    object-fit: fill;
+    background-image: url(https://kingkrazee.github.io/eccomerce/firstpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.secondpic{
+    width: 1519.2px;
+    height: 700px;
+    object-fit: fill;
+    background-image: url(https://kingkrazee.github.io/eccomerce/firstpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-link{
     text-decoration: none;
@@ -23,4 +42,8 @@
     width: 200px;
     height: 200px;
     border-radius: 2rem;
+    z-index: 2;
+    position: relative;
+    bottom: 80px;
+    border: 2px solid black;
 }
