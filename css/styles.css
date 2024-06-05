@@ -8,7 +8,7 @@
     position: relative;
     display: flex;
     justify-content:space-around;
-    height: 35px;
+    height: 60px;
     width: 1519.2px;
     background: linear-gradient(330deg, rgba(255,49,49,1) 0%, rgba(255,145,77,1) 100%);
     font-size: 20px;
@@ -20,7 +20,7 @@
     width: 1519.2px;
     height: 100vh;
     object-fit: fill;
-    background-image: url(https://kingkrazee.github.io/eccomerce/);
+    background-image: url(https://kingkrazee.github.io/eccomerce/images/firstpic.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -29,7 +29,7 @@
     width: 1519.2px;
     height: 100vh;
     object-fit: fill;
-    background-image: url(https://kingkrazee.github.io/eccomerce/secondpic.png);
+    background-image: url(https://kingkrazee.github.io/eccomerce/images/secondpic.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,13 +40,13 @@
 
 .fitz{
     object-fit: contain;
-    width: 200px;
-    height: 200px;
+    /* width: 100px;
+    height: 100px; */
     border-radius: 2rem;
     z-index: 2;
     position: relative;
-    bottom: 80px;
-    border: 2px solid black;
+    bottom: 88px;
+    /* border: 2px solid black; */
 }
 .gohere1{
     height: 60px;
