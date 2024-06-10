@@ -36,6 +36,7 @@
 .nav-link{
     text-decoration: none;
     color: white;
+    margin-top: 1rem;
 }
 
 .fitz{
@@ -45,7 +46,7 @@
     border-radius: 2rem;
     z-index: 2;
     position: relative;
-    bottom: 88px;
+    bottom: 30px;
     /* border: 2px solid black; */
 }
 .gohere1{
