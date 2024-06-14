@@ -56,7 +56,7 @@ let main = document.querySelector('main');
 localStorage.setItem('items', JSON.stringify('items'));
 items.forEach(item => {
   main.innerHTML += `
-  <div>
+  <div class="myproducts" >
   <img src="${item.image}">
   <p>R${item.price}</p>
   <button id="viewMore">View More</button>
